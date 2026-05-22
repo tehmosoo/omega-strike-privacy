@@ -41,4 +41,4 @@ Copy the GitHub Pages URL and paste it into:
 
 If you have questions about OMEGA STRIKE, contact:
 
-`mosoo@brioshe.com`
+`omegastrikebrioshe.com`
