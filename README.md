@@ -28,7 +28,7 @@ After GitHub Pages is enabled, the privacy policy should be available at:
 
 GitHub will then publish the site at:
 
-`https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/`
+`https://tehmosoo.github.io/omega-strike-privacy`
 
 ## How to use this in App Store Connect
 
@@ -41,4 +41,4 @@ Copy the GitHub Pages URL and paste it into:
 
 If you have questions about OMEGA STRIKE, contact:
 
-`YOUR_EMAIL_HERE`
+`mosoo@brioshe.com`
