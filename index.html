@@ -1,66 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>OMEGA STRIKE Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for OMEGA STRIKE" />
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 40px auto;
-      max-width: 760px;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #111;
-      background: #fff;
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #e8ecf3;
+      --muted: #aab3c2;
+      --accent: #8ef08e;
+      --border: #2a3140;
+      --link: #8cc9ff;
     }
-    h1, h2 { line-height: 1.25; }
-    ul { padding-left: 20px; }
-    .muted { color: #666; }
-    a { color: #0a66c2; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #0f1115 0%, #121722 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .card {
+      background: rgba(23, 26, 33, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.28);
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 34px;
+      font-size: 1.35rem;
+      color: var(--accent);
+    }
+
+    h3 {
+      margin-top: 22px;
+      font-size: 1.05rem;
+    }
+
+    p, li {
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .meta {
+      display: inline-block;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .note {
+      border-left: 4px solid var(--accent);
+      padding: 12px 14px;
+      background: rgba(142, 240, 142, 0.08);
+      border-radius: 10px;
+      margin: 18px 0;
+      color: var(--text);
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    code {
+      background: rgba(255,255,255,0.08);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy for OMEGA STRIKE</h1>
-  <p class="muted">Effective date: May 22, 2026</p>
+  <main class="wrap">
+    <section class="card">
+      <h1>OMEGA STRIKE Privacy Policy</h1>
+      <div class="meta">Last updated: July 17, 2026</div>
 
-  <p>OMEGA STRIKE is a fitness app for tracking workouts, protocols, training history, and optional Apple Health integration.</p>
+      <p>
+        This Privacy Policy explains how <strong>OMEGA STRIKE</strong> handles information when you use the app.
+        OMEGA STRIKE is a fitness and training app focused on workouts, protocols, and performance tracking.
+      </p>
 
-  <h2>Information We Collect</h2>
-  <p>OMEGA STRIKE may store workout and app-related data that you enter, such as workout sessions, exercises, sets, reps, weights, protocol information, and related fitness history.</p>
+      <h2>1. Summary</h2>
+      <p>
+        OMEGA STRIKE is designed to keep most of your data on your device or in your own private Apple services.
+        The app does not use advertising SDKs, does not use tracking across apps or websites, and does not use analytics or crash-reporting SDKs.
+      </p>
 
-  <h2>Health Data</h2>
-  <p>If you choose to connect Apple Health, OMEGA STRIKE may read and/or write Health data only with your permission. This may include workout data and, in future versions or enabled features, other fitness-related metrics such as body measurements, steps, or distance. Health data is used only to provide app features and is not used for advertising, marketing, or sold to third parties.</p>
+      <div class="note">
+        The main third-party service used by the app is <strong>RevenueCat</strong>, which helps manage subscriptions and in-app purchases.
+      </div>
 
-  <h2>How Your Data Is Used</h2>
-  <ul>
-    <li>To let you track workouts and training progress.</li>
-    <li>To display your training history and metrics.</li>
-    <li>To sync approved fitness information with Apple Health when enabled.</li>
-    <li>To improve app functionality and reliability.</li>
-  </ul>
+      <h2>2. Information the app uses</h2>
+      <h3>Workout and training data</h3>
+      <p>
+        The app may store workout logs, exercise selections, sets, body metrics, protocols, notes, and related training data.
+        This information is used to provide the app’s core functionality.
+      </p>
 
-  <h2>Data Sharing</h2>
-  <p>OMEGA STRIKE does not sell your personal data. OMEGA STRIKE does not share Health data with third parties for advertising or marketing purposes.</p>
+      <h3>Health and fitness data</h3>
+      <p>
+        If you choose to grant permission, the app may read and write certain HealthKit data, such as workouts and fitness-related metrics.
+        This data is used only to provide health and fitness features inside the app.
+      </p>
 
-  <h2>Data Storage</h2>
-  <p>Data may be stored locally on your device and, where applicable, through Apple-provided services or systems you authorize. If future versions introduce cloud sync or additional data processing, this policy may be updated.</p>
+      <h3>Location data</h3>
+      <p>
+        If you choose to grant permission and use location-related workout features, the app may access location data for activities such as outdoor run tracking.
+        This is optional and only used to support those features.
+      </p>
 
-  <h2>Your Choices</h2>
-  <ul>
-    <li>You can choose whether to connect Apple Health.</li>
-    <li>You can revoke Health permissions at any time in the Apple Health app.</li>
-    <li>You can stop using the app at any time.</li>
-  </ul>
+      <h3>Subscription and purchase data</h3>
+      <p>
+        If you purchase a subscription or use in-app purchases, purchase-related information is processed through Apple and RevenueCat so the app can unlock and manage premium features.
+      </p>
 
-  <h2>Children’s Privacy</h2>
-  <p>OMEGA STRIKE is not directed to children under 13.</p>
+      <h2>3. How information is stored</h2>
+      <p>
+        Most app data is stored locally on your device.
+        Some app data may also be stored in your personal private iCloud / CloudKit storage, which is controlled by your Apple account.
+        We do not operate our own custom backend for storing your workout history or training logs.
+      </p>
 
-  <h2>Changes to This Policy</h2>
-  <p>This Privacy Policy may be updated from time to time. Any changes will be reflected on this page with an updated effective date.</p>
+      <h2>4. Third-party services</h2>
+      <h3>RevenueCat</h3>
+      <p>
+        OMEGA STRIKE uses RevenueCat to manage subscriptions and purchase entitlements.
+        RevenueCat may process purchase history and related subscription status information so the app can determine which premium features are available.
+      </p>
+      <p>
+        More information is available in RevenueCat’s privacy materials:
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a>
+      </p>
 
-  <h2>Contact</h2>
-  <p>If you have questions about this Privacy Policy, contact: <a href="mailto:omegastrike@brioshe.com">omegastrike@brioshe.com</a></p>
+      <h3>Apple services</h3>
+      <p>
+        The app may use Apple services such as HealthKit, CloudKit, StoreKit, CoreLocation, and related system frameworks to provide app features.
+      </p>
+
+      <h2>5. What we do not do</h2>
+      <ul>
+        <li>We do not sell your personal data.</li>
+        <li>We do not use your data for third-party advertising.</li>
+        <li>We do not track you across other companies’ apps or websites.</li>
+        <li>We do not use HealthKit data for advertising, marketing, or data broker purposes.</li>
+      </ul>
+
+      <h2>6. Permissions</h2>
+      <p>
+        Some features may request access to Apple frameworks such as HealthKit or location services.
+        You can decline these permissions, and many parts of the app will still work.
+        You can also change permissions later in the Settings app on your device.
+      </p>
+
+      <h2>7. Data retention</h2>
+      <p>
+        Data stored locally remains on your device until you delete it, clear app data, or remove the app.
+        Data stored in your private Apple cloud services remains subject to your Apple account settings and controls.
+        Purchase and subscription information may also be retained by Apple and RevenueCat according to their own policies.
+      </p>
+
+      <h2>8. Children’s privacy</h2>
+      <p>
+        OMEGA STRIKE is not directed to children under 13, and we do not knowingly collect personal information from children.
+      </p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time.
+        If we make material changes, we will update the “Last updated” date on this page.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact:
+        <br />
+        <strong>Marian Mosnegutu</strong><br />
+        <strong>omegastrike@brioshe.com</strong>
+      </p>
+
+    </section>
+  </main>
 </body>
 </html>
